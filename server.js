@@ -15,7 +15,7 @@ let choiceArray = [
 function whoWon(playerChoice, computerChoice) {
     console.log(`got${playerChoice} and ${computerChoice} but logic is not written yet`)
     // write winning conditionals for the palyer
-    if ((playerChoice == "scissors" && computerChoice == "paper") || (playerChoice == "paper" && computerChoice == "rock") || (playerChoice == "rock" && computerChoice == "scissors")) {
+    if ((playerChoice == "scissors" && computerChoice == "paper") || (playerChoice == "scissors" && computerChoice == "lizard") || (playerChoice == "paper" && computerChoice == "rock") || (playerChoice == "paper" && computerChoice == "spock") || (playerChoice == "rock" && computerChoice == "scissors") || (playerChoice == "rock" && computerChoice == "lizard") || (playerChoice == "lizard" && computerChoice == "paper") || (playerChoice == "lizard" && computerChoice == "spock") || (playerChoice == "spock" && computerChoice == "rock") || (playerChoice == "spock" && computerChoice == "scissors")) {
         return 'You Win!'
     } else if (playerChoice == computerChoice) {
         return 'Its a tie!'
